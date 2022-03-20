@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width">
 		<title>s462088</title>
 		<link rel="stylesheet" href="srednia.css">
-		<link rel="icon" type="image/png" href="surfin_bird.jpg">
+		<link rel="icon" type="image/png" href="res\surfin_bird.jpg">
 		<script>
 			function validateForm() {
 			  var x = document.forms["myForm"]["username"].value;
@@ -43,7 +43,7 @@
 														</form>
 													</div>
 													<div id=\"prawa\">
-														<img src=\"karol.jpg\"</img>
+														<img src=\"\res\karol.jpg\"</img>
 													</div>
 													<div id=\"suma\">
 														<h2>Suma: ";
