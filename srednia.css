@@ -1,0 +1,150 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 18px 'Open Sans', Arial, sans-serif;	
+	text-transform: uppercase;
+}
+
+#suma {
+	clear: both;
+}
+
+.kolor {
+	width: 800px;
+	margin: auto;
+	box-shadow: 0.6em 0px 15px rgba(0,0,0,0.1), -0.7em 0px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+	padding: 50px;
+	text-shadow: 0 0 15px rgba(0, 0, 0, .2);
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+p {
+	padding: 20px;
+}
+
+h2 {
+	letter-spacing: 2px;
+	padding: 15px;
+	margin-bottom: 5px;
+	text-shadow: 0 0 15px rgba(0, 0, 0, .2);
+	font-size: 30px;
+}
+
+#lewa {
+	width: 40%;
+	float: left;
+}
+
+#prawa {
+	float: right;
+	height: 100%;
+	margin-top: auto;
+	width: 60%;
+}
+
+
+img {
+	height: 100%;
+	width: 100%;
+	padding-right: 25px;
+}
+
+header {
+	background: #f3f3f3;
+}
+
+section {
+	padding: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+section#glowna {
+	background-image: url("chub.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 417px;
+}
+
+footer h2 {
+	clear: both;
+	background: #f3f3f3;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+footer h2 a {
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: gray;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0);
+}
+
+footer h2 a:hover {
+	color: black;
+	text-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+input[type=number] {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+	font-size: 150px;
+	text-align: center;
+}
+
+input[type=text] {
+	margin-top: 100px;
+	margin-left: -300px;
+	width: 400px;
+	height: 100px;
+	padding: 20px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	font-size: 40px;
+	text-align: center;
+}
+
+input[type=submit] {
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+	font-size: 40px;
+	text-align: center;
+}
+
+input[type=submit]#guzik {
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+input[type=submit]#przeslij {
+	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-left: -300px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

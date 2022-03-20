@@ -1,0 +1,65 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 325px;
+	background: rgb(201,237,220);
+}
+
+body {
+	font: 18px 'Open Sans', Arial, sans-serif;	
+	text-transform: uppercase;
+}
+
+.kolor {
+	width:800px;
+	background: #f3f3f3;
+	margin: auto;
+	text-align: center;
+	box-shadow: 0.6em 0px 15px rgba(0,0,0,0.1), -0.7em 0px 15px rgba(0,0,0,0.2);
+	background: rgb(201,237,220);
+	background: linear-gradient(180deg, rgba(201,237,220,1) 0%, rgba(243,243,243,1) 50%, rgba(201,237,220,1) 100%);
+	}
+	
+h1 {
+	text-shadow: 0 0 15px rgba(0, 0, 0, .2);
+	padding-top: 100px;
+	padding-bottom: 30px;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+
+h2 {
+	text-shadow: 0 0 15px rgba(0, 0, 0, .2);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 30px;
+}
+
+p {
+	padding-bottom: 40px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+.zadania {
+	margin: auto;
+	width: 600px;
+	font-size: 40px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}

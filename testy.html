@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>s462088</title>
+		<link rel="stylesheet" href="testy.css">
+		<link rel="icon" type="image/png" href="surfin_bird.jpg">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+		<script>
+			window.alert("s462088");
+			window.onbeforeunload = function() 
+			{
+				return  "Are you sure want to LOGOUT the session ?";
+			}
+			
+			function calculator(operation)
+			{
+				let val1=document.getElementById('val1').value;
+				let val2=document.getElementById('val2').value;
+				let x=document.getElementById('x');
+
+				let a=parseFloat(val1);
+				let b=parseFloat(val2);
+				let y=0;
+
+				switch (operation) 
+				{
+					case '+': y=a+b;
+						break;
+					case '-': y=a-b;
+						break;
+					case '*': y=a*b;
+						break;
+					case '/': y=a/b;
+						break;
+				}
+				document.getElementById("x").defaultValue = y;
+			}
+		</script>
+	</head>
+	<body>
+		<div class= "kolor">
+			<header>
+				<h1>JS & MathJax</h1>
+			</header>
+			<section>
+				<p>
+                $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+              </p>
+			   <form>
+                <input type="text" id="val1">
+				<input type="button" value="+" onclick="calculator('+')">
+                <input type="button" value="-" onclick="calculator('-')">
+                <input type="button" value="*" onclick="calculator('*')">
+                <input type="button" value="/" onclick="calculator('/')">
+                <input type="text" id="val2">
+				<input type="text" id="x" readonly>
+            </form>
+			</section>	
+			<footer>
+				<h2><a href="index.html">Powrót</a></h2>
+			</footer>
+		</div>
+	</body>
+</html>
